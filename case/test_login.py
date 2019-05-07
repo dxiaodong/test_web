@@ -32,6 +32,12 @@ class LoginTest(unittest.TestCase):
         
     def setUp(self):
         print("修改内容")
+		
+	def setUp_1(self):
+        print("修改内容")
+		
+	def setUp_1(self):
+        print("修改内容")
 
 if __name__ == '__main__':
     unittest.main()
