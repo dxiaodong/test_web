@@ -29,6 +29,9 @@ class LoginTest(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         cls.login.close_browser()
+        
+    def setUp(self):
+        print("修改内容")
 
 if __name__ == '__main__':
     unittest.main()
