@@ -25,6 +25,11 @@ class LoginTest(unittest.TestCase):
         cls.login = LoginFlow()
         cls.driver = cls.login.driver
         cls.base = Base(cls.driver)
+		
+	def setUp(self):
+        cls.login = LoginFlow()
+        cls.driver = cls.login.driver
+        cls.base = Base(cls.driver)
 
     def test_case_login(self):
         expect_data = self.expect
